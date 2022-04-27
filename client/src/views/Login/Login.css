@@ -1,0 +1,30 @@
+.login-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  border: 1px solid #333;
+  max-width: 30%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.login-form > input {
+  margin: 10px 0;
+}
+
+.login-submit {
+  cursor: pointer;
+  padding: 10px 20px;
+  color: #333;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background-color: transparent;
+  transition: all 0.2s;
+}
+
+.login-submit:hover {
+  background-color: #333;
+  color: #fff;
+}

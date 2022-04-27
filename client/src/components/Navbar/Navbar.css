@@ -1,0 +1,31 @@
+.navbar-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.navbar-link {
+  padding: 10px;
+  text-decoration: none;
+  font-family: sans-serif;
+  border-radius: 5px;
+  margin: 0 5px;
+  color: #333;
+  transition: all 0.2s;
+  position: relative;
+}
+
+.navbar-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  height: 1px;
+  background-color: #333;
+  transition: all 0.2s;
+  width: 0;
+}
+.navbar-link:hover::before {
+  background-color: #333;
+  width: 90%;
+}
